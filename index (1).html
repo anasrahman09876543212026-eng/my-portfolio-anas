@@ -1,0 +1,139 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anas Rahoman | Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  background: #020617;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #38bdf8;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: white;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #0ea5e9, #22c55e);
+  color: black;
+}
+
+/* Projects */
+.projects a {
+  display: block;
+  margin: 10px auto;
+  width: fit-content;
+  padding: 10px 15px;
+  background: #1e293b;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+}
+.projects a:hover {
+  background: #38bdf8;
+}
+
+/* Contact */
+.contact p {
+  margin: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #020617;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#surah">Surah</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="hero">
+  <h1>Anas Rahoman 🌸</h1>
+  <p>14 Years Old | Class 6 Student | Bangladesh</p>
+  <p>Developer | Content Creator | Digital Marketer | Game Creator</p>
+  <p>I build websites, apps and creative digital projects.</p>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <h2>My Projects</h2>
+
+  <a href="https://mars-ee-ai-luxiten.lovable.app" target="_blank">Mars AI Project</a>
+  <a href="https://anasbird.lovable.app/" target="_blank">Anas Bird</a>
+  <a href="https://sites.google.com/view/anasop/home" target="_blank">Anas OP Site</a>
+  <a href="https://uranas.lovable.app" target="_blank">Uranas</a>
+  <a href="https://youranas.mobirisesite.com/" target="_blank">Your Anas</a>
+  <a href="https://sites.google.com/view/aircimpco/home" target="_blank">Aircimpco</a>
+  <a href="https://my-genius-pal.lovable.app/" target="_blank">My Genius Pal</a>
+
+</section>
+
+<!-- Surah Section -->
+<section id="surah">
+  <h2>Surah Al-Asr</h2>
+
+  <p><b>Arabic:</b></p>
+  <p>وَالْعَصْرِ ۝ إِنَّ الْإِنسَانَ لَفِي خُسْرٍ ۝ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ</p>
+
+  <p><b>Bangla Meaning:</b></p>
+  <p>সময়ের কসম, নিশ্চয়ই মানুষ ক্ষতির মধ্যে রয়েছে। তবে তারা নয় যারা ঈমান এনেছে, সৎকর্ম করেছে এবং সত্য ও ধৈর্যের উপদেশ দিয়েছে।</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>📞 Phone: 01329838621</p>
+  <p>💬 WhatsApp: 01329838621</p>
+</section>
+
+<footer>
+  <p>© 2026 Anas Rahoman</p>
+</footer>
+
+<script>
+// Smooth scroll
+document.querySelectorAll("nav a").forEach(link => {
+  link.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
+  });
+});
+</script>
+
+</body>
+</html>
